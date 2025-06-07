@@ -1,0 +1,37 @@
+{
+  "name": "fix-errors.js",
+  "version": "1.0.0",
+  "description": "An error handling library for JavaScript that fixes all of it's issues with error handling",
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4yvid/fix.js.git"
+  },
+  "keywords": [
+    "error-handling",
+    "fix-js",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Dayvid Albuquerque <kkd4yv1d@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/D4yvid/fix.js/issues"
+  },
+  "homepage": "https://github.com/D4yvid/fix.js#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.2"
+  }
+}
